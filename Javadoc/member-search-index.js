@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"br.edu.lucasdev.javaDoc","c":"Calculator","l":"Calculator()","url":"%3Cinit%3E()"},{"p":"br.edu.lucasdev.javaDoc","c":"Calculator","l":"sum(int, int)","url":"sum(int,int)"}]
