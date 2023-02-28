@@ -2,7 +2,7 @@ package br.edu.lucasdev.dataStructure.javastructures.model;
 
 import java.util.Objects;
 
-public class Car {
+public class Car implements Comparable<Car> {
     private String brand;
 
     public Car(String brand) {
@@ -15,6 +15,11 @@ public class Car {
 
     public void setBrand(String brand) {
         this.brand = brand;
+    }
+
+    @Override
+    public int compareTo(Car o) {
+        return this.getBrand().compareTo(o.getBrand());
     }
 
     @Override
@@ -32,6 +37,6 @@ public class Car {
 
     @Override
     public String toString() {
-        return "{brand:" + this.getBrand() + "}";
+        return "Car{brand:" + this.getBrand() + "}";
     }
 }
