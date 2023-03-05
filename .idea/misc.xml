@@ -8,6 +8,13 @@
     <option name="OTHER_OPTIONS" value="-encoding UTF-8 -docencoding ISO-8859-1" />
     <option name="OPTION_INCLUDE_LIBS" value="true" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="azul-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
